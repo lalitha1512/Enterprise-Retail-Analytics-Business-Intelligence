@@ -1,6 +1,3 @@
-<p align="center">
-  <img src="project-overview.png" width="65%" alt="Enterprise Retail Analytics Project Overview">
-</p>
 
 # Enterprise Retail Analytics & Business Intelligence
 
@@ -10,6 +7,10 @@
 
 <p align="center">
   Transforming raw retail e-commerce data into meaningful business insights through data engineering, analytics, and interactive dashboards.
+</p>
+
+<p align="center">
+  <img src="project-overview.png" width="65%" alt="Enterprise Retail Analytics Project Overview">
 </p>
 
 ---
