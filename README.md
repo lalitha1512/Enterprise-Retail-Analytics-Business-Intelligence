@@ -6,7 +6,11 @@
 </p>
 
 <p align="center">
-  <img src="project-overview.png" width="75%" alt="Enterprise Retail Analytics Project Overview">
+  <img
+    src="project-overview.png"
+    width="75%"
+    height="180"
+    alt="Enterprise Retail Analytics Project Overview">
 </p>
 
 ---
