@@ -11,6 +11,21 @@
 
 ---
 
+## Table of Contents
+
+- [Project Overview](#project-overview)
+- [Business Challenges](#business-challenges)
+- [Project Objectives](#project-objectives)
+- [Technology Stack](#technology-stack)
+- [Data Architecture](#data-architecture)
+- [Dataset](#dataset)
+- [Project Workstreams](#project-workstreams)
+- [Project Roadmap](#project-roadmap)
+- [Repository Structure](#repository-structure)
+- [Expected Deliverables](#expected-deliverables)
+- [Project Goals](#project-goals)
+- [Project Information](#project-information)
+  
 ## Project Overview
 
 This project focuses on developing an end-to-end retail analytics solution for a fictional enterprise, **GlobalMart Retail Group**.
