@@ -5,7 +5,7 @@
   Transforming raw retail e-commerce data into meaningful business insights through data engineering, analytics, and interactive dashboards.
 </p>
 
-<p align="center">
+<p align="left">
   <img
     src="project-overview.png"
     width="55%"
