@@ -221,3 +221,4 @@ The goal is to demonstrate practical skills in:
 <p align="center">
   <strong>INFORM • ANALYSE • OPTIMISE • GROW</strong>
 </p>
+
