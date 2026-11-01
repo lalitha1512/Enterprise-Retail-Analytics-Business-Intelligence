@@ -9,7 +9,7 @@
   <img
     src="project-overview.png"
     width="75%"
-    height="180"
+    height="100"
     alt="Enterprise Retail Analytics Project Overview">
 </p>
 
