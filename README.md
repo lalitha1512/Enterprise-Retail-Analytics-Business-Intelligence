@@ -8,8 +8,8 @@
 <p align="center">
   <img
     src="project-overview.png"
-    width="75%"
-    height="500"
+    width="55%"
+    height="400"
     alt="Enterprise Retail Analytics Project Overview">
 </p>
 
