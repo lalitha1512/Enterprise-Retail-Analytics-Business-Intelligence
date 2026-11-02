@@ -1,17 +1,12 @@
 
 # Enterprise Retail Analytics & Business Intelligence
 
+An End-to-End Data Analytics & Business Intelligence Project
+
 <p align="left">
   Transforming raw retail e-commerce data into meaningful business insights through data engineering, analytics, and interactive dashboards.
 </p>
 
-<p align="left">
-  <img
-    src="project-overview.png"
-    width="55%"
-    height="400"
-    alt="Enterprise Retail Analytics Project Overview">
-</p>
 
 ---
 
