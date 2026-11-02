@@ -173,10 +173,11 @@ Enterprise-Retail-Analytics-Business-Intelligence/
 │   └── processed/
 │
 ├── notebooks/
-│   ├── 01_data_understanding.ipynb
-│   ├── 02_data_profiling.ipynb
-│   ├── 03_data_cleaning.ipynb
-│   └── 04_exploratory_data_analysis.ipynb
+│   ├── 01_Business_Understanding_and_Data_Overview.ipynb
+│   ├── 02_Data_Cleaning_and_Preparation.ipynb
+│   ├── 03_Data_Modelling_SQL_and_ETL_Engineering.ipynb
+│   ├── 04_Exploratory_Data_Analysis_and_Advanced_Analytics.ipynb
+│   └── 05_Data_Validation_and_Testing.ipynb
 │
 ├── src/
 │   ├── data_processing/
