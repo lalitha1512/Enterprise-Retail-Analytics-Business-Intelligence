@@ -146,61 +146,7 @@ The dataset contains nine CSV files covering different aspects of e-commerce ope
 
 ## Project Roadmap
 
-### 1. Business Discovery & Requirements
-- Business Understanding
-- Business Objectives
-- KPI Identification
-- Business Requirements
-
-### 2. Data Understanding & Profiling
-- Dataset Exploration
-- Data Structure Analysis
-- Data Quality Assessment
-- Identifier & Relationship Validation
-
-### 3. Data Cleaning & Preparation
-- Missing Value Analysis
-- Duplicate Record Handling
-- Data Type Standardisation
-- Data Quality Improvements
-
-### 4. Data Architecture & Modelling
-- Data Architecture Design
-- Entity Relationship Diagram (ERD)
-- Relational Data Modelling
-- Fact and Dimension Design
-
-### 5. SQL & ETL Engineering
-- SQL Development
-- Business Queries
-- Data Transformation
-- ETL Pipeline Development
-
-### 6. Exploratory Data Analysis & Advanced Analytics
-- Sales Performance Analysis
-- Customer Behaviour Analysis
-- Product & Category Analysis
-- Delivery Performance Analysis
-- Advanced Analytics
-
-### 7. Power BI & Business Intelligence
-- Data Integration
-- Data Modelling
-- DAX Measures
-- Interactive Dashboards
-- Business KPI Visualisation
-
-### 8. Testing & Validation
-- Data Quality Testing
-- SQL Validation
-- KPI Reconciliation
-- Dashboard Testing
-
-### 9. Final Portfolio & Delivery
-- Business Insights & Recommendations
-- Technical Documentation
-- Project Presentation
-- GitHub Portfolio Publication
+![Project Roadmap](images/project-roadmap.png)
 
 ## Repository Structure
 
