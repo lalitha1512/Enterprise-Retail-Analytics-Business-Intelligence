@@ -1,232 +1,106 @@
-# Enterprise Retail Analytics & Business Intelligence
+# 🛍️ Enterprise Retail Analytics & Business Intelligence
 
-### An End-to-End Data Analytics & Business Intelligence Project
+<p align="center">
+  **An End-to-End Data Analytics & Business Intelligence Project**
+</p>
 
-<p align="left">
-  Transforming raw retail e-commerce data into meaningful business insights through data engineering, analytics, and interactive dashboards.
+<p align="center">
+  Transforming raw e-commerce data into meaningful business insights through Python, SQL and Business Intelligence.
+</p>
+
+<p align="center">
+  ![Project Status](https://img.shields.io/badge/Project-In%20Progress-success?style=for-the-badge)
+  ![Python](https://img.shields.io/badge/Python-Analytics-blue?style=flat-square&logo=python)
+  ![Oracle](https://img.shields.io/badge/Oracle-SQL-red?style=flat-square&logo=oracle)
+  ![Power BI](https://img.shields.io/badge/Power%20BI-Planned-yellow?style=flat-square&logo=powerbi)
+  ![Dataset](https://img.shields.io/badge/Dataset-Olist-orange?style=flat-square)
 </p>
 
 ---
 
-## Table of Contents
+## 📌 1. Project Overview
 
-- [Project Overview](#project-overview)
-- [Business Challenges](#business-challenges)
-- [Project Objectives](#project-objectives)
-- [Technology Stack](#technology-stack)
-- [Data Architecture](#data-architecture)
-- [Dataset](#dataset)
-- [Project Workstreams](#project-workstreams)
-- [Project Implementation](#project-implementation)
-- [Database Implementation](#database-implementation)
-- [Data Validation & Quality](#data-validation--quality)
-- [Business Analysis Highlights](#business-analysis-highlights)
-- [Project Roadmap](#project-roadmap)
-- [Repository Structure](#repository-structure)
-- [Expected Deliverables](#expected-deliverables)
-- [Project Goals](#project-goals)
-- [Project Information](#project-information)
+**GlobalMart Retail Group** is a fictional retail organisation used as the business context for this project.
 
----
+The goal is to build an end-to-end analytics solution that converts raw e-commerce data into structured information, business insights and decision-support reports.
 
-## Project Overview
+**What this project covers:**
+- 🐍 Python-based data preparation and analysis.
+- 🗄️ Oracle database design and SQL analysis.
+- 📊 Business performance and customer analytics.
+- 📈 Power BI dashboards (planned).
 
-This project focuses on developing an end-to-end retail analytics solution for a fictional enterprise, **GlobalMart Retail Group**.
+## 🎯 2. Business Objectives
 
-The objective is to transform raw e-commerce data into structured, reliable and meaningful business intelligence using data engineering, SQL, Python, statistical analysis and interactive visualisation.
-
-The project follows an enterprise-oriented analytical workflow, from understanding business requirements and preparing datasets to database implementation, business analysis and dashboard development.
-
-## Business Challenges
-
-Retail businesses often face challenges such as:
-
-- Limited visibility into sales and revenue performance.
-- Difficulty understanding customer purchasing behaviour.
-- Inconsistent customer retention.
-- Identifying high-performing and underperforming products.
-- Fragmented reporting and data quality issues.
-- Difficulty converting raw data into actionable insights.
-
-## Project Objectives
-
-- Analyse sales and revenue trends.
-- Understand customer purchasing behaviour.
-- Identify top-performing products and categories.
-- Evaluate seller and order performance.
-- Build structured analytical data models.
-- Perform data quality checks and validation.
-- Develop interactive Power BI dashboards.
-- Generate actionable, data-driven business insights.
-
-## Technology Stack
-
-| Technology | Purpose |
+| Objective | Description |
 |---|---|
-| Python | Data analysis and transformation |
-| Pandas & NumPy | Data manipulation and processing |
-| Matplotlib & Seaborn | Exploratory data visualisation |
-| Oracle SQL | Database modelling and business analysis |
-| SQL*Loader | Bulk data loading into Oracle |
-| Power BI | Interactive dashboards and reporting (planned) |
-| Azure Data Factory | Pipeline orchestration (proposed, subject to feasibility) |
-| Excel | Data validation and reconciliation |
-| Google Colab | Cloud-based development and experimentation |
-| VS Code | Project development and code organisation |
-| GitHub | Version control and documentation |
+| 💰 Sales Analysis | Understand revenue and order trends |
+| 👥 Customer Analysis | Study customer behaviour and retention |
+| 📦 Product Analysis | Identify top-performing categories |
+| 🚚 Operations Analysis | Evaluate delivery and order performance |
+| ⭐ Customer Experience | Analyse customer reviews |
+| 📊 Business Intelligence | Support decisions through dashboards |
 
-## Data Architecture
+## 🧰 3. Technology Stack
 
-The proposed solution follows this high-level analytical workflow:
+| Technology | Application |
+|---|---|
+| 🐍 Python | Data preparation and analysis |
+| Pandas & NumPy | Data manipulation |
+| Matplotlib & Seaborn | Data visualisation |
+| 🗄️ Oracle SQL | Database modelling and analysis |
+| SQL*Loader | Bulk data loading |
+| 📊 Power BI | Dashboard development – planned |
+| Excel | Data validation |
+| Google Colab | Notebook development |
+| GitHub | Version control |
 
-**Data Sources → Data Ingestion → Data Processing → Relational Database → Advanced Analytics → Power BI → Business Insights**
+## 📂 4. Dataset
 
-The database implementation and SQL-based analytical workflow have been completed. Dashboard development and additional pipeline components are planned for subsequent phases.
+**Brazilian E-Commerce Public Dataset by Olist**
 
-## Dataset
+Source: [Kaggle – Olist Brazilian E-Commerce Dataset](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
 
-This project uses the **Brazilian E-Commerce Public Dataset by Olist**, available on Kaggle.
-
-The dataset contains nine CSV files covering different aspects of e-commerce operations.
-
-### Dataset Components
+The project uses nine datasets representing customers, orders, products, sellers, payments, reviews and geographic information.
 
 | Dataset | Description |
 |---|---|
-| Customers | Customer information |
-| Geolocation | Geographic location information |
-| Order Items | Products associated with orders |
-| Order Payments | Payment information |
-| Order Reviews | Customer reviews |
-| Orders | Order details and status |
-| Products | Product information |
+| Customers | Customer details |
+| Orders | Order information |
+| Order Items | Products in each order |
+| Payments | Payment transactions |
+| Reviews | Customer feedback |
+| Products | Product details |
 | Sellers | Seller information |
-| Category Translation | Product category translations |
+| Geolocation | Geographic coordinates |
+| Category Translation | English category names |
 
-**Dataset Source:** [Brazilian E-Commerce Public Dataset by Olist – Kaggle](https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce)
+## ⚙️ 5. Project Workflow
 
-*Note: The available dataset does not directly contain physical store inventory snapshots, supplier procurement records or marketing campaign performance. These are not presented as actual source data.*
+1. **Business Understanding** – Define business requirements and objectives.
+2. **Data Exploration** – Understand dataset structures and relationships.
+3. **Data Preparation** – Clean and prepare the source datasets.
+4. **Database Engineering** – Create Oracle tables and load data.
+5. **Data Validation** – Verify constraints, duplicates and data quality.
+6. **Business Analysis** – Generate insights using SQL.
+7. **Dashboard Development** – Build interactive Power BI reports (planned).
 
-## Project Workstreams
+## 🗄️ 6. Database Implementation
 
-### 1. Revenue & Sales Intelligence
+Implemented using **Oracle Database 10g**.
 
-- Revenue and order analysis.
-- Sales trends over time.
-- Payment analysis.
-- Order status analysis.
+**Database summary**
 
-### 2. Customer Intelligence
+| Metric | Result |
+|---|---:|
+| Database Tables | 9 |
+| Total Records | 1,308,091 |
+| Primary Keys | 9 |
+| Foreign Keys | 6 |
 
-- Customer segmentation.
-- RFM analysis.
-- Customer purchasing patterns.
-- Retention and cohort analysis.
+**Records loaded**
 
-### 3. Product Intelligence
-
-- Product category performance.
-- Top-selling products.
-- Product review analysis.
-- Seller performance.
-
-### 4. Operational Intelligence
-
-- Order processing analysis.
-- Delivery and shipping performance.
-- Late delivery analysis.
-- Geographic performance.
-
-### 5. Advanced Analytics
-
-- Exploratory data analysis.
-- Statistical analysis.
-- Predictive modelling where supported by the data.
-
-### 6. Executive Business Intelligence
-
-- Executive KPI dashboards.
-- Sales and revenue reporting.
-- Customer and product insights.
-- Business recommendations.
-
-## Project Implementation
-
-### Phase 1: Business Understanding & Data Overview
-
-- Defined the business context and analytical objectives.
-- Identified business challenges and analytical requirements.
-- Examined the nine source datasets.
-- Reviewed dataset structures, columns and relationships.
-
-**Status: Completed**
-
-### Phase 2: Data Cleaning & Preparation
-
-- Loaded and inspected datasets using Python.
-- Performed data quality assessment and preprocessing.
-- Handled missing values and data inconsistencies.
-- Prepared cleaned datasets for database integration and analysis.
-
-**Status: Completed**
-
-### Phase 3: Database Modelling, SQL & ETL Engineering
-
-- Designed a relational database structure.
-- Identified primary keys and relationships.
-- Defined Oracle-compatible data types.
-- Created nine relational database tables.
-- Loaded cleaned datasets into Oracle using SQL*Loader.
-- Implemented primary-key and foreign-key constraints.
-- Performed database validation and analytical SQL queries.
-
-**Status: Completed**
-
-### Phase 4: Business Analysis
-
-Performed SQL-based analysis covering:
-
-- Revenue and sales performance.
-- Monthly revenue trends.
-- Product category performance.
-- Seller revenue performance.
-- Customer geographic distribution.
-- Payment method analysis.
-- Order status distribution.
-- Customer reviews and satisfaction.
-- Delivery performance.
-- Customer retention and repeat purchases.
-
-**Status: Completed – 25 analytical SQL checks**
-
-### Phase 5: Advanced Analytics & Dashboard Development
-
-- Advanced exploratory data analysis.
-- Statistical and customer analytics.
-- Power BI data modelling and dashboard development.
-- Executive KPI reporting.
-
-**Status: Planned / In Progress**
-
-## Database Implementation
-
-The database was implemented using **Oracle Database 10g**.
-
-### Database Tables
-
-1. CUSTOMERS
-2. ORDERS
-3. ORDER_ITEMS
-4. PAYMENTS
-5. REVIEWS
-6. PRODUCTS
-7. SELLERS
-8. GEOLOCATION
-9. CATEGORY_TRANSLATION
-
-### Data Loading Summary
-
-| Database Table | Records Loaded |
+| Table | Records |
 |---|---:|
 | CUSTOMERS | 99,441 |
 | ORDERS | 99,441 |
@@ -235,4 +109,124 @@ The database was implemented using **Oracle Database 10g**.
 | REVIEWS | 99,224 |
 | PRODUCTS | 32,951 |
 | SELLERS | 3,095 |
-| GEOLOCATION | 738,332
+| GEOLOCATION | 738,332 |
+| CATEGORY_TRANSLATION | 71 |
+
+## ✅ 7. Data Validation & Quality
+
+Database integrity and data quality were checked through SQL queries.
+
+| Validation Check | Result |
+|---|---:|
+| Primary Keys Enabled | 9 |
+| Foreign Keys Enabled | 6 |
+| Duplicate Groups | 0 |
+| Orphan Records | 0 |
+| Invalid Database Objects | 0 |
+
+**Data quality observations**
+
+- Two payment records contained zero installments.
+- Three records had `not_defined` payment types.
+- Three product categories had no English translation.
+- Original source values were preserved.
+
+## 📊 8. Business Analysis Highlights
+
+SQL analysis covered revenue, customers, products, payments, reviews and delivery performance.
+
+### Key Performance Indicators
+
+| KPI | Result |
+|---|---:|
+| 🛒 Total Orders | 99,441 |
+| 👥 Unique Customers | 96,096 |
+| 📦 Total Products | 32,951 |
+| 🏪 Total Sellers | 3,095 |
+| 💰 Product Revenue | R$13.59 Million |
+| 🧾 Average Order Value | R$137.75 |
+| ⭐ Average Review Score | 4.09 / 5 |
+| 🚚 Average Delivery Time | 12.56 Days |
+| ⏰ Late Delivery Rate | 8.11% |
+| 🔁 Repeat Customer Rate | 3.12% |
+
+### Business Insights
+
+- 🥇 **Top Revenue State:** São Paulo (SP).
+- 🛍️ **Top Product Category:** Beauty & Health.
+- 💳 **Preferred Payment Method:** Credit Card by total payment value.
+- 📅 **Peak Revenue Month:** November 2017.
+- 📦 **Delivered Orders:** 97.02%.
+- 🔁 **Repeat Customers:** 2,997.
+
+*Note: Product revenue uses ORDER_ITEMS.PRICE and excludes freight. Average order value is based on product item prices divided by distinct orders represented in ORDER_ITEMS. All order statuses are included.*
+
+## 🗺️ 9. Project Roadmap
+
+| Phase | Activity | Status |
+|---|---|---|
+| 01 | Business Understanding | ✅ Completed |
+| 02 | Data Exploration & Preparation | ✅ Completed |
+| 03 | Database Modelling & Data Loading | ✅ Completed |
+| 04 | Data Validation & SQL Analysis | ✅ Completed |
+| 05 | Advanced Analytics | 🔄 Upcoming |
+| 06 | Power BI Dashboards | 🔄 Upcoming |
+| 07 | Business Recommendations | 🔄 Upcoming |
+
+## 📁 10. Repository Structure
+
+```text
+Enterprise-Retail-Analytics-Business-Intelligence/
+│
+├── README.md
+├── images/
+├── notebooks/
+│   ├── 01_Business_Understanding_and_Data_Overview.ipynb
+│   └── 02_Data_Cleaning_and_Preparation.ipynb
+│
+├── sql/
+│   ├── 01_schema_creation.sql
+│   ├── 02_data_validation.sql
+│   ├── 03_data_quality_checks.sql
+│   └── 04_business_analysis.sql
+│
+└── .gitignore
+```
+
+## 🚀 11. Expected Deliverables
+
+- Business requirements and dataset documentation.
+- Cleaned and prepared datasets.
+- Oracle database and SQL scripts.
+- Data validation and quality checks.
+- Python analytics notebooks.
+- Power BI dashboards.
+- Business insights and recommendations.
+
+## 🎓 12. Project Goals
+
+This project demonstrates practical knowledge of:
+
+- Data Analytics and Data Engineering.
+- Python programming and data processing.
+- Oracle SQL and relational database design.
+- Data validation and quality assurance.
+- Business Intelligence and reporting.
+- Analytical thinking and business problem-solving.
+
+## ℹ️ 13. Project Information
+
+| Detail | Description |
+|---|---|
+| Project Name | Enterprise Retail Analytics & Business Intelligence |
+| Organisation | GlobalMart Retail Group (Fictional) |
+| Domain | Retail & E-Commerce |
+| Dataset | Olist Brazilian E-Commerce |
+| Project Type | End-to-End Portfolio Project |
+| Development Status | In Progress |
+
+---
+
+<p align="center">
+  **INFORM • ANALYSE • OPTIMISE • GROW**
+</p>
